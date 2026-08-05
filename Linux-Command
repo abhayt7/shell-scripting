@@ -1,0 +1,208 @@
+File Permissions (Very Important)..........................
+
+Read, Write, Execute
+chmod
+chown
+Numeric permissions (777, 755, 644, 600)
+Hard Link vs Soft Link
+umask
+
+
+
+.....................................
+
+
+Process Management (Most Asked)
+What is a Process?
+Process States
+PID & PPID
+Zombie Process
+Orphan Process
+Daemon Process
+Foreground vs Background Process
+Process vs Thread
+Nice & Renice
+
+
+
+
+
+
+ps
+top
+htop
+kill
+kill -9
+jobs
+bg
+fg
+nice
+renice
+
+
+
+
+Memory & Disk
+
+Commands:
+
+free -h
+df -h
+du -sh
+lsblk
+mount
+
+Topics:
+
+RAM vs Swap
+Disk Usage
+Inode
+Mount Point
+
+
+
+
+Memory & Disk
+
+Commands:
+
+free -h
+df -h
+du -sh
+lsblk
+mount
+
+Topics:
+
+RAM vs Swap
+Disk Usage
+Inode
+Mount Point
+Module 5: File Searching
+
+Commands:
+
+find
+locate
+grep
+awk
+sed
+cut
+sort
+uniq
+wc
+head
+tail
+
+Interview Questions:
+
+Difference between grep and awk
+Difference between awk and sed
+Difference between find and locate
+
+
+
+
+Networking (Very Important for DevOps)
+
+Commands:
+
+ping
+curl
+wget
+ssh
+scp
+rsync
+netstat
+ss
+nslookup
+dig
+traceroute
+hostname
+ip addr
+ifconfig
+
+Interview Questions:
+
+What is SSH?
+Difference between SCP and Rsync?
+Difference between netstat and ss?
+What is DNS?
+Module 7: Services
+
+Commands:
+
+systemctl status nginx
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+systemctl enable nginx
+systemctl disable nginx
+journalctl
+
+Interview Questions:
+
+What is systemd?
+What is PID 1?
+How do you check logs?
+How do you troubleshoot a failed service?
+Module 8: Users & Groups
+
+Commands:
+
+useradd
+usermod
+userdel
+passwd
+groupadd
+groups
+id
+whoami
+
+Interview Questions:
+
+Difference between useradd and adduser?
+How do you add a user to a group?
+What is sudo?
+Module 9: Shell Scripting (Very Important)
+
+Topics:
+
+Variables
+if-else
+for loop
+while loop
+Functions
+Arrays
+read
+exit status ($?)
+Command substitution ($( ))
+Redirection
+Pipes
+
+Scripts to practice:
+
+Disk Monitoring
+CPU Monitoring
+Memory Monitoring
+Service Monitoring
+Backup Script
+User Creation
+Server Health Check
+Website Monitoring
+Ping Multiple Servers
+Module 10: Logs
+
+Commands:
+
+tail -f
+less
+cat
+journalctl
+
+Topics:
+
+/var/log
+/var/log/syslog
+/var/log/messages
+/var/log/auth.log
